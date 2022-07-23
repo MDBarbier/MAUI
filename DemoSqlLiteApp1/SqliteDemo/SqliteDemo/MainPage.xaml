@@ -35,6 +35,13 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="ReadBtn"               
+                Text="ReadDb"
+                SemanticProperties.Hint="Reads from the db"
+                Clicked="OnReadClicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
